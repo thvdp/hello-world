@@ -1,0 +1,13 @@
+
+Je oplossing is helaas onjuist.
+Failed to import test module: evaluate
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/unittest/loader.py", line 428, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/lib/python3.5/unittest/loader.py", line 369, in _get_module_from_name
+    __import__(name)
+  File "/eval/evaluate.py", line 2, in <module>
+    import about_me, sys
+  File "/eval/about_me.py", line 15, in <module>
+    output = string.format(start, age, end)
+NameError: name 'string' is not defined
